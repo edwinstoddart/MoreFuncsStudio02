@@ -27,7 +27,7 @@ function sortNumArr(arr) {
   } else {
     sortedArr.push(findMinValue(arr));
     arr.splice(arr.indexOf(findMinValue(arr)), 1);
-    return sortedArr.push(sortNumArr(arr));
+    return sortNumArr(arr);
   }
 }
 */
